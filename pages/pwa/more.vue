@@ -32,9 +32,9 @@
       </v-list-item> -->
    <!--   <v-list-item title="Github" target="blank" href="https://github.com/amvstrm/amvstrm">
         <template #append>
-          <v-icon icon="mdi-github" /> -->
+          <v-icon icon="mdi-github" /> 
         </template> 
-      </v-list-item>
+      </v-list-item> -->
     </v-list>
   </v-container>
 </template>
