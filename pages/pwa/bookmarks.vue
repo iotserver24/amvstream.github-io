@@ -3,11 +3,11 @@ import { useStorage } from "@vueuse/core";
 
 useSeoMeta({
   ogTitle: "Bookmarker",
-  ogDescription: "amvstrm`s local bookmaker",
+  ogDescription: "AnimeVerse`s local bookmaker",
   ogImage: "",
   ogUrl: "",
-  twitterTitle: "Bookmarker - amvstrm",
-  twitterDescription: "amvstrm`s local bookmaker",
+  twitterTitle: "Bookmarker - AnimeVerse",
+  twitterDescription: "AnimeVerse`s local bookmaker",
   twitterImage: "",
   twitterCard: "summary",
 });
