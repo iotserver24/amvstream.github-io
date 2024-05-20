@@ -17,7 +17,7 @@ const gotoRandomID = async () => {
           <NuxtImg
             src="/logo.png"
             style="display: flex;"
-            alt="amvstrm"
+            alt="AnimeVerse"
             quality="80"
             width="140px"
           />
@@ -50,22 +50,22 @@ const gotoRandomID = async () => {
       <v-list>
         <v-list-subheader>More</v-list-subheader>
         <v-list-item title="About us" to="/about" />
-        <v-list-item title="Privacy Policy" to="/privacy" />
-        <v-list-item title="DMCA" href="/dmca">
+         <v-list-item title="Privacy Policy" to="/privacy" /> 
+         <!-- <v-list-item title="DMCA" href="/dmca"> 
           <template #append>
             <v-icon icon="mdi-information" />
-          </template>
-        </v-list-item>
-        <v-list-item title="Help" href="https://amvdocs.pages.dev/help">
+          </template> -->
+        </v-list-item> 
+      <!--  <v-list-item title="Help" href="https://amvdocs.pages.dev/help">
           <template #append>
             <v-icon icon="mdi-help" />
-          </template>
-        </v-list-item>
-        <v-list-item title="Github" href="https://github.com/amvstrm/amvstrm">
+          </template> -->
+        <!--</v-list-item> -->
+    <!--    <v-list-item title="Github" href="https://github.com/amvstrm/amvstrm">
           <template #append>
             <v-icon icon="mdi-github" />
           </template>
-        </v-list-item>
+        </v-list-item> -->
       </v-list>
     </v-navigation-drawer>
 
@@ -75,7 +75,7 @@ const gotoRandomID = async () => {
           <NuxtImg
             src="/logo.png"
             style="display: flex;"
-            alt="amvstrm"
+            alt="AnimeVerse"
             quality="80"
             width="140px"
           />
@@ -91,7 +91,7 @@ const gotoRandomID = async () => {
       </ClientOnly>
     </v-main>
     <v-footer app height="auto" dense absolute>
-      <p>amvstrm Cambodia © Copyright {{ new Date().getFullYear() }}</p>
+      <p>AnimeVerse India © Copyright {{ new Date().getFullYear() }}</p>
       <v-spacer />
       <v-btn
         :prepend-icon="
