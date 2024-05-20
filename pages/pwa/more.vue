@@ -22,23 +22,7 @@
     </v-list>
     <v-divider class="my-4"></v-divider>
     <v-list lines="two">
-      <!-- <v-list-item title="Web Mode" append-icon="mdi-web" to="/" /> -->
       <v-list-item title="About us" target="blank" href="/about" />
-      <!-- <v-list-item title="Privacy Policy" target="blank" href="/privacy" /> -->
-      <!-- 
-      <v-list-item title="Help" target="blank" href="https://docs.amvstr.ml/help">
-        <template #append>
-          <v-icon icon="mdi-help" />
-        </template>
-      </v-list-item>
-      -->
-      <!-- 
-      <v-list-item title="Github" target="blank" href="https://github.com/amvstrm/amvstrm">
-        <template #append>
-          <v-icon icon="mdi-github" />
-        </template>
-      </v-list-item>
-      -->
     </v-list>
   </v-container>
 </template>
