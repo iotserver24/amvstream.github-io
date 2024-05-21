@@ -18,11 +18,12 @@
           <img src="/icon.png" style="display: flex; width: 100px; height: 100%" />
         </template>
       </v-list-item>
-      <v-list-item title="AnimeVerse" :subtitle="new Date().getFullYear() + ' ©AnimeVerse'" />
+      <!-- Correcting the self-closing tag issue -->
+      <v-list-item title="AnimeVerse" :subtitle="new Date().getFullYear() + ' ©AnimeVerse'"></v-list-item>
     </v-list>
     <v-divider class="my-4"></v-divider>
     <v-list lines="two">
-      <v-list-item title="About us" target="blank" href="/about" />
+      <v-list-item title="About us" target="blank" href="/about"></v-list-item>
     </v-list>
   </v-container>
 </template>
