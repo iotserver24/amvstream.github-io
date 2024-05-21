@@ -50,22 +50,6 @@ const gotoRandomID = async () => {
       <v-list>
         <v-list-subheader>More</v-list-subheader>
         <v-list-item title="About us" to="/about" />
-        <!-- <v-list-item title="Privacy Policy" to="/privacy" /> -->
-         <!-- <v-list-item title="DMCA" href="/dmca"> 
-          <template #append>
-            <v-icon icon="mdi-information" />
-          </template> -->
-       <!-- </v-list-item> -->
-      <!--  <v-list-item title="Help" href="https://amvdocs.pages.dev/help">
-          <template #append>
-            <v-icon icon="mdi-help" />
-          </template> -->
-        <!--</v-list-item> -->
-    <!--    <v-list-item title="Github" href="https://github.com/amvstrm/amvstrm">
-          <template #append>
-            <v-icon icon="mdi-github" />
-          </template>
-        </v-list-item> -->
       </v-list>
     </v-navigation-drawer>
 
