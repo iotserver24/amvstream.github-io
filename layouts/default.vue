@@ -46,11 +46,6 @@ const gotoRandomID = async () => {
           @click="gotoRandomID"
         />
       </v-list>
-      <v-divider />
-      <v-list>
-        <v-list-subheader>More</v-list-subheader>
-        <v-list-item title="About us" to="/about" />
-      </v-list>
     </v-navigation-drawer>
 
     <v-app-bar absolute="">
@@ -75,7 +70,7 @@ const gotoRandomID = async () => {
       </ClientOnly>
     </v-main>
     <v-footer app height="auto" dense absolute>
-      <p>AnimeVerse India © Copyright {{ new Date().getFullYear() }}</p>
+      <p>AnimeVerse Cambodia © Copyright {{ new Date().getFullYear() }}</p>
       <v-spacer />
       <v-btn
         :prepend-icon="
